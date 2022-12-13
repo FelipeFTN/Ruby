@@ -17,3 +17,18 @@ puts 35 / 5
 
 # Prints a Square
 puts 2**
+
+# Prints positive number
+num = -20
+puts num.abs()
+
+# Prints rounded value
+num = 20.687
+puts num.round()
+
+# Prints next lower number
+num = 20.9
+puts num.floor()
+
+# Square root
+puts Math.sqrt(36)

@@ -1,2 +1,2 @@
 # Ruby
-Just seeing what this language can do 👀
+Just seeing what this language can do
