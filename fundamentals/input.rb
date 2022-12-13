@@ -9,3 +9,8 @@ age = gets.chomp()
 
 # You also can use , instead of +
 puts("Hello " + name + ", you are " + age)
+
+puts "Enter your name: "
+name = gets.chomp()
+
+puts "Hello #{name},!"
