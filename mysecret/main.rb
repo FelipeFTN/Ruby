@@ -59,15 +59,7 @@ def decrypt(data)
   aes.iv = "FelipeFTNSecret+"
   aes.key = secretKey
 
-  begin
-    result = aes.update(data) + aes.final
-  rescue Exception => exception
-    puts exception.message
-    puts exception.backtrace.inspect
-  ensure
-    result = aes.update(data)
-  end
-
+  result = aes.update(data)
   return result
 end
 
