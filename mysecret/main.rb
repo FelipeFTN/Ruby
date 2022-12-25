@@ -2,9 +2,9 @@ require "base64"
 require "openssl"
 
 def readFile(path)
-  file = File.new(path, "r")
+  file = File.open(path)
   if file 
-    data = file.sysread(20)
+    data = file.read
     return data
   else
     puts "Not able to access the file"
